@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    text-align: center;
+    background-color: rgb(190, 59, 36);
+    margin:20px auto ;
+    
+}
+
+
+#todo-item{
+    height: 49px;
+    width:270px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px rgb(112, 21, 0) solid;
+    margin-bottom: 50px;
+}
+.add{
+    height: 46px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(112, 21, 0);
+    border-radius: 6px;
+}
+#todo-item:focus{
+    outline: none;
+    background-color: transparent;
+}
+#todo-item::placeholder{
+    color: rgb(226, 226, 226);
+}
+.add:focus{
+    outline: none;
+}
+
+.add:hover{
+background-color: rgb(85, 16, 1);
+}
+
+#list li{
+    padding: 5px;
+    font-size: 25px;
+    list-style: none;
+    text-align: right;
+    color: white;
+    width: 400px;
+    margin:auto ;
+
+}
+#list{
+    margin-bottom: 40px;
+}
+.li-cont{
+    background-color: rgb(155, 31, 4);
+}
+#list li button{
+    background-color: rgb(112, 21, 0);
+    float: left;
+    height: 30px;
+    width: auto;
+    padding: 4px;
+    outline:none;
+    border: 0px;
+    color: white;
+    margin-right: 4px;
+}
+#list li button:hover{
+    background-color: rgb(85, 16, 1);
+
+}
+.name{
+    background-color:rgb(112, 21, 0);
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(209, 115, 99);
+    margin-top: 500px;
+}
